@@ -1,0 +1,15 @@
+@import "../../css/variables.css";
+
+.wrapper {
+  width: var(--wrapperWidth);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  padding-top: 10px;
+  box-shadow: var(--wrapperShadow);
+}

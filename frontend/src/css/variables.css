@@ -1,0 +1,17 @@
+:root {
+  /* Layout */
+  --wrapperWidth: 1200px;
+
+  /* Colors */
+  --colorBlack: #000;
+  --colorWhite: #fff;
+
+  /* Shadows */
+  --wrapperShadow: 0px 0px 3px 0px #000;
+
+  /* Transitions */
+  --transitionTime: all 0.5s ease;
+}
+
+@media (max-width: 500px) {
+}

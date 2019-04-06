@@ -1,0 +1,89 @@
+@import "../../css/variables.css";
+
+.studentContainer {
+  width: calc(100% - 80px); /* adjust for padding */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: row;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ddd;
+  position: relative;
+  padding: 40px;
+}
+.studentInformationContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 20px;
+}
+img {
+  align-self: flex-start;
+}
+
+/* Student items */
+.studentImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  border-width: 1px;
+  border-style: solid;
+  object-fit: fill;
+}
+.studentInformationContainer h2 {
+  margin: 5px;
+  margin-left: 10px;
+  font-size: 3rem;
+}
+.studentInformationContainer p,
+.expandableView input {
+  margin: 3.5px;
+  margin-left: 50px;
+  font-weight: 100;
+}
+
+.expand {
+  position: absolute;
+  display: flex;
+  right: 20px;
+  top: -30px;
+  cursor: pointer;
+}
+.expand p {
+  font-size: 60px;
+}
+.expandableView {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.tags {
+  width: 500px;
+  height: 100%;
+  display: inline;
+  margin-left: 50px;
+  overflow-wrap: break-word;
+}
+
+/* button */
+
+.tags p {
+  display: inline-block;
+  margin: 2px;
+  padding: 15px;
+  width: max-content;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.expandableView input {
+  width: 200px;
+  padding: 5px;
+  height: 25px;
+  font-size: 1.25rem;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #000;
+}

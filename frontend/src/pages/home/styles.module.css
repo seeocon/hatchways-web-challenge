@@ -1,0 +1,28 @@
+@import "../../css/variables.css";
+
+.studentsContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin-top: 5px;
+  -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  margin-right: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
